@@ -9,6 +9,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/mtenberge/gpio"
+	"github.com/mtenberge/gpio/spi/mcp3w0c"
 	"github.com/warthog618/config"
 	"github.com/warthog618/config/blob"
 	"github.com/warthog618/config/blob/decoder/json"
@@ -16,8 +18,6 @@ import (
 	"github.com/warthog618/config/dict"
 	"github.com/warthog618/config/env"
 	"github.com/warthog618/config/pflag"
-	"github.com/warthog618/gpio"
-	"github.com/warthog618/gpio/spi/mcp3w0c"
 )
 
 // This example reads both channels from an MCP3008 connected to the RPI by four

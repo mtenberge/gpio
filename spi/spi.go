@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/warthog618/gpio"
+	"github.com/mtenberge/gpio"
 )
 
 // SPI resprents a device connected to the Raspberry Pi via an SPI bus using 3 or 4 GPIO lines.

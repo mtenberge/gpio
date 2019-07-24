@@ -9,8 +9,8 @@ package mcp3w0c
 import (
 	"time"
 
-	"github.com/warthog618/gpio"
-	"github.com/warthog618/gpio/spi"
+	"github.com/mtenberge/gpio"
+	"github.com/mtenberge/gpio/spi"
 )
 
 // MCP3w0c reads ADC values from a connected Microchip MCP3xxx family device.

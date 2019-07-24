@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/warthog618/gpio"
+	"github.com/mtenberge/gpio"
 )
 
 // This example drives GPIO 4, which is pin J8 7.

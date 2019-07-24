@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/warthog618/gpio"
+	"github.com/mtenberge/gpio"
 )
 
 // Watches GPIO 4 (J8 7) and reports when it changes state.

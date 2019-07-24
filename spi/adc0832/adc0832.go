@@ -8,8 +8,8 @@ package adc0832
 import (
 	"time"
 
-	"github.com/warthog618/gpio"
-	"github.com/warthog618/gpio/spi"
+	"github.com/mtenberge/gpio"
+	"github.com/mtenberge/gpio/spi"
 )
 
 // ADC0832 reads ADC values from a connected ADC0832.
