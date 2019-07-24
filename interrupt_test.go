@@ -8,6 +8,9 @@
 //
 // Tests use Raspberry Pi J8 pins 15 and 16 which must be jumpered together.
 //
+
+// +build linux,arm
+
 package gpio
 
 import (

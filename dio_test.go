@@ -7,7 +7,9 @@
 //  Test suite for dio module.
 //
 //	Tests use J8 pins 7 (mostly) and 15 and 16 (for looped tests)
-//
+
+// +build linux,arm
+
 package gpio
 
 import (

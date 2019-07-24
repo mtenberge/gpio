@@ -5,7 +5,7 @@
 
 // Interrupt capabilities for DIO Pins.
 
-// +build linux
+// +build linux,arm
 
 package gpio
 

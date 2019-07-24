@@ -4,6 +4,9 @@
 // license that can be found in the LICENSE file.
 
 // Test suite for mem module.
+
+// +build linux,arm
+
 package gpio
 
 import (
